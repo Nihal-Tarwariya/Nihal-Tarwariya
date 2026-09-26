@@ -1,0 +1,33 @@
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # daily at 00:00 UTC
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate snake SVGs
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Nihal-Tarwariya
+          outputs: |
+            dist/github-snake.svg?color_snake=%2322D3EE&color_dots=%230A101F,%2310B981,%2322D3EE,%2338BDF8,%23F8FAFC
+            dist/github-snake-dark.svg?color_snake=%2322D3EE&color_dots=%23070B14,%2310B981,%2322D3EE,%2338BDF8,%23F8FAFC
+
+      - name: Commit generated files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update contribution snake"
+          file_pattern: "dist/*.svg"
