@@ -163,7 +163,7 @@ Kanban-style support ticket system with SLA breach tracking, an enforced status 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dist/github-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./dist/github-snake.svg">
-  <img src="./dist/github-snake.svg" alt="Nihal Tarwariya GitHub contribution snake" width="100%">
+  <img src="./snake.yml" alt="Nihal Tarwariya GitHub contribution snake" width="100%">
 </picture>
 
 <sub>Regenerated daily from live contribution data via <a href="https://github.com/Nihal-Tarwariya/Nihal-Tarwariya/actions/workflows/snake.yml">GitHub Actions</a></sub>
@@ -172,26 +172,14 @@ Kanban-style support ticket system with SLA breach tracking, an enforced status 
 
 <br>
 
-## 🏆 Achievements
-
-<sub>NPTEL certifications</sub>
-
-- Python for Data Science — **76%**
-- Database Management Systems (DBMS) — **60%**
-- Design & Analysis of Algorithms — **53%**
-- Programming in Java — **63%**
-
-<br>
 
 ## 🔗 Connect
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nihal-Tarwariya)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ADD__YOUR__LINKEDIN__URL-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ADD_YOUR_LINKEDIN_URL)
-[![LeetCode](https://img.shields.io/badge/LeetCode-ADD__YOUR__LEETCODE__URL-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/ADD_YOUR_LEETCODE_USERNAME)
-[![Portfolio](https://img.shields.io/badge/Portfolio-ADD__YOUR__PORTFOLIO__URL-22D3EE?style=for-the-badge&logoColor=white)](https://ADD_YOUR_PORTFOLIO_URL)
-[![Email](https://img.shields.io/badge/Email-ADD__YOUR__EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ADD_YOUR_EMAIL)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ADD__YOUR__LINKEDIN__URL-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nihal-tarwariya/)
+[![Email](https://img.shields.io/badge/Email-ADD__YOUR__EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nihaltarwariya@gmail.com)
 
 </div>
 
